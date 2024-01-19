@@ -234,3 +234,20 @@ print(L)
     # Escriba un programa para generar aleatorimente un numero entre 20 y 30.
 numeroAleatorio= random.randint(20,30)
 print(numeroAleatorio)
+
+# Ejercicio 31 #
+    # Escribe un programa que muestre los siguientes numeros en la consola (8 * (5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20))
+
+contador=1
+while contador<=8:
+    print("5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20")
+    contador += 1
+
+# Ejercicio 32 #
+    # Escribir un programa que cree la variable L y le asigne la lista [3,6,9,12,15,18,21,24]. Luego crear una nueva lista L1 
+    # mediante una comprension de lista que contenga los numeros de L divididos por 3. El programa debe mostrar la lasta L1 en la consola.
+L = [3,6,9,12,15,18,21,24]
+L1= [i//3 for i in L]
+print(L1)
+
+
